@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Establece la fuente a Arial */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Añade margen superior para separar el contenido del borde superior */
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px; /* Tamaño de fuente más grande */
+    text-align: center;
+    margin: 20px 0; /* Añade margen arriba y abajo para separar del contenido */
+}
+
+button {
+    font-family: Arial, sans-serif; /* Establece la fuente a Arial */
+    font-size: 12px; /* Tamaño de fuente del botón */
+    padding: 10px 20px; /* Añade relleno interno para hacer el botón más grande */
+    margin-top: 20px; /* Añade margen superior para separar del texto */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+img.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px; /* Ajusta el margen según tus necesidades */
+}
+
+img.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px; /* Ajusta el margen según tus necesidades */
+}

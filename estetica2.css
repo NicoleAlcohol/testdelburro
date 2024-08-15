@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #adadad; /* Cambia el color de fondo aquí */
+}
+
+#quiz-container {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.question {
+    margin-bottom: 30px;
+    font-size: 24px; /* Agranda el tamaño de la fuente de las preguntas */
+}
+
+.answers {
+    margin-bottom: 30px;
+    font-size: 20px; /* Agranda el tamaño de la fuente de las respuestas */
+    margin: auto;
+    text-align: left;
+}
+
+.answers div {
+    margin-bottom: 10px; /* Aumenta el espacio entre las opciones de respuesta */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+}
